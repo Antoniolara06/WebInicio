@@ -1,11 +1,15 @@
-### Manual para generar claves SSH
+# Manual para generar claves SSH
 
-# Lo primero que debemos de hacer es abrir Git bash.
+## 1º abrimos Git bash.
 
-# Pegamos la siguiente línea de texto sustituyendo el email por el nuesto.
-
+## 2º Pegamos la siguiente línea de texto sustituyendo el email por el nuesto.
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
-# Esto nos creara una nueva clave SSH.
+### Esto nos creara una nueva clave SSH.
 
+## 3º Cuando se pida creamos una contrasela segura
+```bash
+> Enter passphrase (empty for no passphrase): [Type a passphrase]
+> Enter same passphrase again: [Type passphrase again]
+```
